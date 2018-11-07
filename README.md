@@ -6,7 +6,7 @@
 
 The **KernTroller** is a customizable keyboard controller with pressure sensitive capacitive touch pads, based on the [Adafruit Trinket M0](https://www.adafruit.com/product/3500) board, and is programmable with [CircuitPython](https://circuitpython.readthedocs.io/en/2.x/)!
 
-The default configuation has you ready to kern in [Type Supply's MetricsMachine](http://tools.typesupply.com/) but its functionality is easy to customize by changing a few lines of Python code. Essentially, your computer sees it as a keyboard, and the mapping of button presses to keyboard keystrokes is all outlined in a Python script running on the device!
+The default configuration has you ready to kern in [Type Supply's MetricsMachine](http://tools.typesupply.com/) but its functionality is easy to customize by changing a few lines of Python code. Essentially, your computer sees it as a keyboard, and the mapping of button presses to keyboard keystrokes is all outlined in a Python script running on the device!
 
 The capacitive touch pads can sense a range of values depending on how firmly you press down each the “button” pad, and can then trigger different keyboard shortcuts accordingly (i.e. the keyboard command for a 1 unit kern adjustment with a small press, 5 or 10 units with a firm press).
 
